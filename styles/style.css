@@ -1,0 +1,21 @@
+/* 菜单页面 */
+.menupage {
+  padding: 10px;
+}
+
+.menupage>h2 {
+  padding: 30px;
+}
+
+.menupage>ul {
+  border: 1px solid red;
+}
+
+.menupage>ul>li {
+  margin: 10px;
+  background-color: rgb(4, 115, 212);
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}

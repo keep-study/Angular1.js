@@ -1,0 +1,37 @@
+{
+  "name": "angular1.js",
+  "version": "0.0.0",
+  "description": "用于学习和记录一些有用的组件、指令、过滤器等。",
+  "scripts": {
+    "start": "npm install && npm run dev",
+    "clean": "hai2007_nodejs -d build",
+    "dev": "./node_modules/.bin/grunt",
+    "build": "npm run clean && npm run prod",
+    "prod": "node_modules/.bin/grunt prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keep-study/Angular1.js.git"
+  },
+  "keywords": [
+    "grunt",
+    "angularjs"
+  ],
+  "author": "Keep-Study",
+  "bugs": {
+    "url": "https://github.com/keep-study/Angular1.js/issues"
+  },
+  "homepage": "https://github.com/keep-study/Angular1.js#readme",
+  "devDependencies": {
+    "@hai2007/nodejs": "^0.1.0",
+    "autoprefixer": "^7.2.5",
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^2.1.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-postcss": "^0.9.0"
+  }
+}

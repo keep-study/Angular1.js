@@ -1,0 +1,162 @@
+/*! angular1.js V0.0.0 | (c) 2020 你好2007*/
+/*!
+ * 👁️ - 统一不同浏览器的基础样式
+ * https://github.com/hai2007/style.css/blob/master/normalize.css
+ *
+ * author hai2007 < https://hai2007.gitee.io/sweethome >
+ *
+ * Copyright (c) 2020-present hai2007 走一步，再走一步。
+ * Released under the MIT license
+ */
+
+ html {
+  /* 防止iPhone在坚屏转向横屏时放大文字 */
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* 统一行高 */
+  line-height: 1.15;
+}
+
+button,
+input {
+  /* 兼容部分手机下border不显示问题 */
+  border: 1px solid #b2b2bd;
+}
+
+article,
+footer,
+header,
+nav,
+section {
+  /* 修正旧浏览器未定义的块级元素 */
+  display: block;
+}
+
+canvas,
+svg {
+  /* 修正旧浏览器未定义的行内块元素 */
+  display: inline-block;
+}
+
+* {
+  /* 统一不同浏览器盒子尺寸计算方法 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-ms-clear,
+::-ms-reveal {
+  /* 去掉IE浏览器输入框叉叉和眼睛 */
+  display: none;
+}
+
+img {
+  /* 针对火狐浏览器在img标签没有src时候的差异修复 */
+  display: inline-block;
+}
+
+html {
+  /* 设置默认字体为统一的安全字体 */
+  font-family: sans-serif;
+}
+
+a {
+  /* 默认去掉下划线 */
+  text-decoration: none;
+}
+
+li {
+  /* 去掉前置索引 */
+  list-style-type: none;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* 去掉不喜欢的间距 */
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  /* 去掉不喜欢的间距，针对火狐浏览器等 */
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+  /* 修改IE和其它浏览器不一致问题 */
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* 去掉默认的8px */
+  margin: 0;
+}
+
+table {
+  /* 设置默认表格边框合并为一个单一的边框 */
+  border-collapse: collapse;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: .16rem;
+}
+
+/* webkit下滚动条样式 */
+
+::-webkit-scrollbar {
+  width: .07rem;
+  height: .07rem;
+  background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  height: .3rem;
+  background-color: rgb(113, 30, 50);
+  border-radius: .05rem;
+}
+
+/* IE浏览器下 */
+
+* {
+  /*三角箭头的颜色*/
+  scrollbar-arrow-color: rgb(113, 30, 50);
+  /*滚动条滑块按钮的颜色*/
+  scrollbar-face-color: #eeeeee;
+  /*滚动条整体颜色*/
+  scrollbar-highlight-color: #fff;
+  /*滚动条阴影*/
+  scrollbar-shadow-color: #ccc;
+  /*滚动条轨道颜色*/
+  scrollbar-track-color: #fff;
+}
+
+.menupage {
+  padding: 10px;
+}
+
+.menupage>h2 {
+  padding: 30px;
+}
+
+.menupage>ul {
+  border: 1px solid red;
+}
+
+.menupage>ul>li {
+  margin: 10px;
+  background-color: rgb(4, 115, 212);
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}
